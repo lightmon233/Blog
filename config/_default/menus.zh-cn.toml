@@ -16,11 +16,6 @@
   weight = 10
 
 [[main]]
-  name = "主题"
-  pageRef = "topics"
-  weight = 20
-
-[[main]]
   pre = "github"
   name = "GitHub仓库"
   url = "https://github.com/lightmon233/Blog"
