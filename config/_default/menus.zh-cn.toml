@@ -10,6 +10,26 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+  name = "帖子"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "主题"
+  pageRef = "topics"
+  weight = 20
+
+[[main]]
+  pre = "github"
+  name = "GitHub仓库"
+  url = "https://github.com/lightmon233/Blog"
+  weight = 30
+
+[[footer]]
+  name = "我的日语学习记录池"
+  url = "https://tellyou-nihongo.netlify.app/"
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"
