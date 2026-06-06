@@ -18,7 +18,7 @@
 [[main]]
   pre = "github"
   name = "GitHub仓库"
-  url = "https://github.com/lightmon233/Blog"
+  url = "https://github.com/lightmon233/lightmon233.github.io"
   weight = 30
 
 [[footer]]

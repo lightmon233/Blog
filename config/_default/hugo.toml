@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://lightmon233.github.io/Blog/"
+baseURL = "https://lightmon233.github.io/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 
