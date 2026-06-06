@@ -86,6 +86,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showEdit = true
   editURL = "https://github.com/lightmon233/Blog"
   editAppendPath = true
+  showComments = true
   seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
