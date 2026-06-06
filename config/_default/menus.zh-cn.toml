@@ -16,6 +16,11 @@
   weight = 10
 
 [[main]]
+ name = "标签"
+ pageRef = "tags"
+ weight = 20
+
+[[main]]
   pre = "github"
   name = "GitHub仓库"
   url = "https://github.com/lightmon233/lightmon233.github.io"
@@ -62,10 +67,7 @@
 #  pageRef = "categories"
 #  weight = 20
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+
 
 
 # -- Footer Menu --
