@@ -1,3 +1,11 @@
+{{- $image := resources.Get "img/under-skirt.webp" -}}
+{{- if $image -}}
+<div class="relative z-10 flex w-full justify-center items-end overflow-hidden bg-transparent pointer-events-none -mt-8 md:-mt-12 mb-0">
+<img src="{{ $image.RelPermalink }}" 
+     alt="Footer Decoration" 
+     class="w-full max-w-7xl h-auto object-contain block" />
+</div>
+{{- end -}}
 <footer id="site-footer" class="py-10 print:hidden">
   {{/* Footer menu */}}
   {{ if .Site.Params.footer.showMenu | default true }}
@@ -73,13 +81,5 @@
   {{ if templates.Exists "partials/extend-footer.html" }}
     {{ partialCached "extend-footer.html" . }}
   {{ end }}
-  {{- $image := resources.Get "img/under-skirt.webp" -}}
-  {{- if $image -}}
-  <div class="relative z-10 flex w-full justify-center items-end overflow-hidden bg-transparent pointer-events-none -mt-8 md:-mt-12 mb-0">
-    <img src="{{ $image.RelPermalink }}" 
-         alt="Footer Decoration" 
-         class="w-full max-w-7xl h-auto object-contain block" />
-  </div>
-  {{- end -}}
 </footer>
 
