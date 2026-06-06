@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://lightmon233.github.io/Blog/sitemap.xml
+Sitemap: https://lightmon233.github.io/sitemap.xml
