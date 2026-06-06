@@ -1,6 +1,6 @@
 {{- $image := resources.Get "img/under-skirt.webp" -}}
 
-<div class="relative w-full bg-transparent flex flex-col items-center mt-16 md:mt-24">
+<div class="relative w-full bg-transparent flex flex-col items-center mt-16 md:mt-24 pb-12 md:pb-16">
 
   {{- if $image -}}
   <div class="w-full max-w-7xl pointer-events-none z-0">
@@ -10,9 +10,9 @@
   </div>
   {{- end -}}
 
-  <footer id="site-footer" class="absolute bottom-8 md:bottom-14 left-0 w-full z-10 px-4 md:px-8 print:hidden bg-transparent">
+  <footer id="site-footer" class="relative z-10 w-full px-4 md:px-8 print:hidden bg-transparent -mt-24 md:-mt-32">
     
-    {{/* Footer menu - 这里会老老实实回到左边靠齐 */}}
+    {{/* Footer menu - 完美的原生左靠齐 */}}
     {{ if .Site.Params.footer.showMenu | default true }}
       {{ if .Site.Menus.footer }}
         {{ $onlyIcon := true }}
