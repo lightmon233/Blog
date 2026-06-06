@@ -74,8 +74,11 @@
     {{ partialCached "extend-footer.html" . }}
   {{ end }}
 </footer>
+{{- $image := resources.Get "img/under-skirt.webp" -}}
+{{- if $image -}}
 <div class="relative z-10 flex w-full justify-center items-end overflow-hidden bg-transparent pointer-events-none -mt-8 md:-mt-12 mb-0">
-    <img src="{{ "img/under-skirt.webp" | relURL }}" 
+    <img src="{{ $image.RelPermalink }}" 
          alt="Footer Decoration" 
          class="w-full max-w-7xl h-auto object-contain block" />
 </div>
+{{- end -}}
