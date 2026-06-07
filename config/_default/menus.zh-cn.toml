@@ -16,15 +16,20 @@
   weight = 10
 
 [[main]]
- name = "标签"
- pageRef = "tags"
- weight = 20
+  name = "标签"
+  pageRef = "tags"
+  weight = 20
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 30
 
 [[main]]
   pre = "github"
   name = "GitHub仓库"
   url = "https://github.com/lightmon233/lightmon233.github.io"
-  weight = 30
+  weight = 50
 
 [[footer]]
   name = "我的日语学习记录池"
