@@ -3,6 +3,8 @@ title: "我的无线转有线linux服务器用到的脚本们"
 date: 2024-11-28T18:10:17+08:00
 draft: false
 description: ""
+categories: ["工具脚本"]
+tags: ["linux", "shell", "软路由"]
 ---
 {{< katex >}}
 

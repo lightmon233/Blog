@@ -3,6 +3,8 @@ title: "反悔贪心[USACO09OPEN] Work Scheduling G"
 date: 2024-05-25T15:51:03+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["堆", "贪心", "反悔贪心"]
 ---
 {{< katex >}}
 

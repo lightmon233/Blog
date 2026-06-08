@@ -3,6 +3,8 @@ title: "ArchLinux安装简明指南"
 date: 2024-09-12T17:23:25+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["arch linux", "linux"]
 ---
 {{< katex >}}
 

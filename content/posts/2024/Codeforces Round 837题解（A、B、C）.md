@@ -3,6 +3,8 @@ title: "Codeforces Round 837题解（A、B、C）"
 date: 2024-06-10T13:50:03+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["codeforces", "堆"]
 ---
 {{< katex >}}
 

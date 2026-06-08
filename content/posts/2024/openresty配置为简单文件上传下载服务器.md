@@ -3,6 +3,8 @@ title: "openresty配置为简单文件上传下载服务器"
 date: 2024-11-11T11:36:01+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["openresty", "nginx", "server"]
 ---
 {{< katex >}}
 

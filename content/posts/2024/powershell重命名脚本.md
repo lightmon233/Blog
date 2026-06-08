@@ -3,6 +3,8 @@ title: "powershell重命名脚本"
 date: 2024-07-18T22:45:59+08:00
 draft: false
 description: ""
+categories: ["工具脚本"]
+tags: ["powershell"]
 ---
 {{< katex >}}
 

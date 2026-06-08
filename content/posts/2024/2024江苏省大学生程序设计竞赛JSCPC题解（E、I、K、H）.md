@@ -3,6 +3,8 @@ title: "2024江苏省大学生程序设计竞赛JSCPC题解（E、I、K、H）"
 date: 2024-05-24T11:13:01+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["acm", "cpp", "xcpc", "省赛", "数据结构", "主席树", "jscpc"]
 ---
 {{< katex >}}
 

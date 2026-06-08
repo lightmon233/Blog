@@ -3,6 +3,8 @@ title: "ArchLinux+Windows单硬盘安装以及后续配置 UEFI+GPT"
 date: 2024-05-10T10:38:14+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["bash", "arch linux", "操作系统", "shell"]
 ---
 {{< katex >}}
 

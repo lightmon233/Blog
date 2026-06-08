@@ -3,6 +3,8 @@ title: "rofi drun修改软件启动参数"
 date: 2024-06-18T13:19:21+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["rofi"]
 ---
 {{< katex >}}
 

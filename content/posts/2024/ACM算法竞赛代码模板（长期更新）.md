@@ -3,6 +3,8 @@ title: "ACM算法竞赛代码模板（长期更新）"
 date: 2024-05-10T10:20:10+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["cpp", "icpc", "acm"]
 ---
 {{< katex >}}
 

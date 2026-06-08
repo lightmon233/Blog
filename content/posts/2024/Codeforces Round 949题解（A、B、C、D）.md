@@ -3,6 +3,8 @@ title: "Codeforces Round 949题解（A、B、C、D）"
 date: 2024-06-04T08:41:01+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["codeforces", "位运算"]
 ---
 {{< katex >}}
 

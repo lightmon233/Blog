@@ -3,6 +3,8 @@ title: "Codeforces Round 973题解（E）"
 date: 2024-09-27T14:32:55+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["codeforces", "贪心", "gcd"]
 ---
 {{< katex >}}
 

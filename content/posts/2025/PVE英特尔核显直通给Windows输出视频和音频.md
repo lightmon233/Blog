@@ -3,6 +3,8 @@ title: "PVE英特尔核显直通给Windows输出视频和音频"
 date: 2025-05-18T23:16:06+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["pve", "虚拟机"]
 ---
 {{< katex >}}
 

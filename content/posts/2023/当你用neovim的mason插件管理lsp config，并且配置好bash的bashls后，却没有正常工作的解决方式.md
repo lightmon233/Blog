@@ -3,6 +3,8 @@ title: "当你用neovim的mason插件管理lsp config，并且配置好bash的ba
 date: 2023-12-14T19:16:06+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["neovim", "bash", "linux"]
 ---
 {{< katex >}}
 
@@ -18,8 +20,6 @@ description: ""
 
 ## 以下是bash-language-server的官方仓库：
 <https://github.com/bash-lsp/bash-language-server>
-附上截图：
-![屏幕截图 2023-12-14 190615.png](https://i2.100024.xyz/2023/12/14/vlz0ob.webp)
 ## 看到了dependency里面的shellcheck没？
 我们需要的就是这个包，那么我们只需要
 ```bash

@@ -3,6 +3,8 @@ title: "Arch系linux安装英伟达显卡驱动小问题（nvidia-smi failed）"
 date: 2024-06-10T02:24:05+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["arch linux", "linux", "nvidia", "驱动"]
 ---
 {{< katex >}}
 

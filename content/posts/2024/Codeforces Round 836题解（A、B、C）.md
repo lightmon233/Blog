@@ -3,6 +3,8 @@ title: "Codeforces Round 836题解（A、B、C）"
 date: 2024-06-15T14:30:54+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["数论", "质数", "分解质因数", "异或"]
 ---
 {{< katex >}}
 

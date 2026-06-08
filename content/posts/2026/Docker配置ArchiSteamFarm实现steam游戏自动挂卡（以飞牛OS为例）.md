@@ -3,6 +3,8 @@ title: "Docker配置ArchiSteamFarm实现steam游戏自动挂卡（以飞牛OS为
 date: 2026-04-16T23:50:53+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["steam", "archisteamfarm", "ast", "自动化", "挂机"]
 ---
 {{< katex >}}
 

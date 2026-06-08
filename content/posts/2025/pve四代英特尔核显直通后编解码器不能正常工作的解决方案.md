@@ -3,6 +3,8 @@ title: "pve四代英特尔核显直通后编解码器不能正常工作的解决
 date: 2025-05-07T14:01:18+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["pve", "虚拟机"]
 ---
 {{< katex >}}
 

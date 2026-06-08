@@ -3,6 +3,8 @@ title: "codeforces round 961题解（A、B、C）"
 date: 2024-06-07T10:22:27+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["codeforces", "位运算", "构造"]
 ---
 {{< katex >}}
 

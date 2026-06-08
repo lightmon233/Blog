@@ -3,6 +3,8 @@ title: "Codeforces Round 840题解（A、B、C）"
 date: 2024-06-08T01:51:40+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["codeforces", "构造", "数学", "绝对值"]
 ---
 {{< katex >}}
 

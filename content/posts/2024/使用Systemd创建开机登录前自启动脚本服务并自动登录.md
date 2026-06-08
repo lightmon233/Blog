@@ -3,6 +3,8 @@ title: "使用Systemd创建开机登录前自启动脚本服务并自动登录"
 date: 2024-10-10T15:57:58+08:00
 draft: false
 description: ""
+categories: ["工具脚本"]
+tags: ["systemd"]
 ---
 {{< katex >}}
 

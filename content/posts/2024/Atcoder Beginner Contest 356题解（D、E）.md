@@ -3,6 +3,8 @@ title: "Atcoder Beginner Contest 356题解（D、E）"
 date: 2024-06-03T22:22:16+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["atcoder", "组合", "数学", "调和级数"]
 ---
 {{< katex >}}
 

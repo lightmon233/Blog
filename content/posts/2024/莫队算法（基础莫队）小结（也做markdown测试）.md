@@ -1,8 +1,10 @@
 ---
-title: "莫队算法（基础莫队）小结（也做markdown测试）"
+title: "莫队算法（基础莫队）小结"
 date: 2024-05-09T19:21:13+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["cpp", "莫队", "分块", "数据结构"]
 ---
 {{< katex >}}
 

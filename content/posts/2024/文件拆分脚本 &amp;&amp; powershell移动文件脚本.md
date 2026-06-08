@@ -3,6 +3,8 @@ title: "文件拆分脚本 &amp;&amp; powershell移动文件脚本"
 date: 2024-06-17T21:42:13+08:00
 draft: false
 description: ""
+categories: ["工具脚本"]
+tags: ["python", "powershell", "io"]
 ---
 {{< katex >}}
 

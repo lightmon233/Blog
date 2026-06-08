@@ -3,6 +3,8 @@ title: "openwrt路由器lan口莫名其妙断网的补丁式解决方案"
 date: 2026-04-25T21:51:35+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["pve", "openwrt", "软路由"]
 ---
 {{< katex >}}
 

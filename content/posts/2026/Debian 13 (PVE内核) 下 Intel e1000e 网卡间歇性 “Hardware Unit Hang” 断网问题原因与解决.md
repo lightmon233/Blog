@@ -3,6 +3,8 @@ title: "Debian 13 (PVE内核) 下 Intel e1000e 网卡间歇性 “Hardware Unit 
 date: 2026-04-26T16:52:59+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["linux", "pve", "驱动", "虚拟机"]
 ---
 {{< katex >}}
 

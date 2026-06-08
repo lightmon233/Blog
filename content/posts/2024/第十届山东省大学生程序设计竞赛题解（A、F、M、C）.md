@@ -3,6 +3,8 @@ title: "第十届山东省大学生程序设计竞赛题解（A、F、M、C）"
 date: 2024-05-10T02:25:46+08:00
 draft: false
 description: ""
+categories: ["算法竞赛"]
+tags: ["cpp", "xcpc", "省赛"]
 ---
 {{< katex >}}
 

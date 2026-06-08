@@ -3,6 +3,8 @@ title: "pve安装后删除local-lvm并把其空间全部分给local"
 date: 2024-10-18T19:19:54+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["pve", "虚拟机"]
 ---
 {{< katex >}}
 

@@ -3,6 +3,8 @@ title: "ps1 is not digitally signed. You cannot run this script解决方案"
 date: 2024-07-28T22:24:13+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["powershell"]
 ---
 {{< katex >}}
 

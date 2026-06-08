@@ -3,6 +3,8 @@ title: "Thinkpad X230安装Arch Linux修复键盘无法调节屏幕亮度"
 date: 2024-09-15T21:38:00+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["arch linux", "linux", "thinkpad"]
 ---
 {{< katex >}}
 

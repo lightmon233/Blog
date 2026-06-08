@@ -3,6 +3,8 @@ title: "go-musicfox打开报错ALSA lib pcm_dmix.c_1000_(snd_pcm_dmix_open) unab
 date: 2024-09-14T00:23:55+08:00
 draft: false
 description: ""
+categories: ["技术折腾"]
+tags: ["pipewire", "pulseaudio", "pipewire-pulse", "alsa"]
 ---
 很有可能你同时装了Hyprland和KDE plasma两种桌面环境，其中一个用pipewire作为音频管理器，另一个用pulseaudio作为音频管理器，这两者会发生冲突，导致奇怪的音频问题出现。
 
