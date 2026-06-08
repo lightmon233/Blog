@@ -151,13 +151,13 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyD-eKeYhqTGRp5ubTmAbhp7QLOc8QxmMeQ"
+  authDomain = "blowfish-5c539.firebaseapp.com"
+  projectId = "blowfish-5c539"
+  storageBucket = "blowfish-5c539.firebasestorage.app"
+  messagingSenderId = "831119530228"
+  appId = "1:831119530228:web:23ef633de8e21a2e61a6a1"
+  measurementId = "G-9CFZN2P819"
 
 [fathomAnalytics]
   # site = "ABC12345"
