@@ -1,0 +1,40 @@
+---
+title: "Powershell重命名脚本"
+date: 2024-07-18T22:46:37+08:00
+draft: false
+description: ""
+categories: ["实用脚本"]
+tags: ["powershell"]
+---
+## 目的
+
+把当前文件夹下的这些文件
+![image](img/cnblogs/3349274-20240718215059776-213220279.png)
+重命名为
+![image](img/cnblogs/3349274-20240718224537413-762957762.png)
+
+## 代码
+
+```ps1
+Get-ChildItem -Path . -Filter "*.mkv" | ForEach-Object {
+    if ($_.Name -ne "rename") {
+        $fileName = $_.Name -replace "\.[^.]+$", ""
+		# ?表示非贪婪模式
+        $extension = $_.Name -replace '^.+\.', ''
+        # (\d+\.?\d*) 匹配数字，包括小数点
+        # (\(.*?\))? 匹配括号内的内容
+        $pattern = '\[(\d+\.?\d*)(\(.*?\))?\]'
+        if ($fileName -match $pattern) {
+            # $s = [regex]::Match($fileName, '\[(.*?)\]').Value
+            $match = $matches[1] # matches哈希表仅包含任何匹配模式的第一个匹配项
+            # matches[1]即第一个()中的内容
+            $newName = "S01E" + $match
+            Rename-Item -LiteralPath $_.Name -NewName "$newName.$extension"
+            Write-Output "$newName.$extension"
+        }
+        else {
+            Write-Output "No match found"
+        }
+    }
+}
+```

@@ -29,7 +29,7 @@
   name = "按标签检索"
   parent = "检索"
   pageRef = "tags"
-  weight = 20
+  weight = 25
 
 [[main]]
   name = "关于"
