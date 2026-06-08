@@ -16,7 +16,18 @@
   weight = 10
 
 [[main]]
-  name = "标签"
+  name = "检索"
+  weight = 20
+
+[[main]]
+  name = "按类别检索"
+  parent = "检索"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "按标签检索"
+  parent = "检索"
   pageRef = "tags"
   weight = 20
 
