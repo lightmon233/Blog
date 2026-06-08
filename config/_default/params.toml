@@ -72,8 +72,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [article]
   showComments = true
   showDate = true
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
