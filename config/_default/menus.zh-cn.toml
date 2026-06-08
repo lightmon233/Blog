@@ -31,9 +31,9 @@
   url = "https://github.com/lightmon233/lightmon233.github.io"
   weight = 50
 
-[[footer]]
-  name = "我的日语学习记录池"
-  url = "https://tellyou-nihongo.netlify.app/"
+# [[footer]]
+#   name = "我的日语学习记录池"
+#   url = "https://tellyou-nihongo.netlify.app/"
 
 #[[main]]
 #  name = "Blog"
