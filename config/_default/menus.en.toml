@@ -1,0 +1,31 @@
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Browse"
+  weight = 20
+
+[[main]]
+  name = "By Category"
+  parent = "Browse"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "By Tag"
+  parent = "Browse"
+  pageRef = "tags"
+  weight = 25
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  pre = "github"
+  name = "GitHub Repository"
+  url = "https://github.com/lightmon233/lightmon233.github.io"
+  weight = 50

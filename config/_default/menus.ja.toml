@@ -1,0 +1,31 @@
+[[main]]
+  name = "記事一覧"
+  pageRef = "posts"
+  weight = 10
+
+# [[main]]
+#   name = "検索"
+#   weight = 20
+
+[[main]]
+  name = "カテゴリ"
+#   parent = "検索"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "タグ"
+#   parent = "検索"
+  pageRef = "tags"
+  weight = 25
+
+[[main]]
+  name = "プロフィール"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  pre = "github"
+  name = "GitHubリポジトリ"
+  url = "https://github.com/lightmon233/lightmon233.github.io"
+  weight = 50

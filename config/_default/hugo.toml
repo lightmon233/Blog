@@ -4,8 +4,9 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://lightmon233.github.io/"
-languageCode = "zh-cn"
+# languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
