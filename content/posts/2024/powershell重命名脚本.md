@@ -21,19 +21,19 @@ tags: ["powershell"]
 ```ps1
 Get-ChildItem -Path . -Filter "*.mkv" | ForEach-Object {
     if ($_.Name -ne "rename") {
-        \(fileName = \)_.Name -replace "\.[^.]+$", ""
+        $fileName = $_.Name -replace "\.[^.]+$", ""
 		# ?表示非贪婪模式
-        \(extension = \)_.Name -replace '^.+\.', ''
+        $extension = $_.Name -replace '^.+\.', ''
         # (\d+\.?\d*) 匹配数字，包括小数点
         # (\(.*?\))? 匹配括号内的内容
         $pattern = '\[(\d+\.?\d*)(\(.*?\))?\]'
-        if (\(fileName -match \)pattern) {
-            # \(s = [regex]::Match(\)fileName, '\[(.*?)\]').Value
-            \(match = \)matches[1] # matches哈希表仅包含任何匹配模式的第一个匹配项
+        if ($fileName -match $pattern) {
+            # $s = [regex]::Match($fileName, '\[(.*?)\]').Value
+            $match = $matches[1] # matches哈希表仅包含任何匹配模式的第一个匹配项
             # matches[1]即第一个()中的内容
-            \(newName = "S01E" + \)match
-            Rename-Item -LiteralPath \(_.Name -NewName "\)newName.$extension"
-            Write-Output "\(newName.\)extension"
+            $newName = "S01E" + $match
+            Rename-Item -LiteralPath $_.Name -NewName "$newName.$extension"
+            Write-Output "$newName.$extension"
         }
         else {
             Write-Output "No match found"
